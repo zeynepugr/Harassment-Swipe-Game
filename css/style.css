@@ -143,7 +143,7 @@ html, body {
   color: var(--color-text-muted);
   line-height: 1.5;
   max-width: 320px;
-  min-height: 3rem; /* reserve 2 lines so NL↔EN toggle doesn't shift elements below */
+  min-height: 4.5rem; /* reserve 3 lines so NL↔EN toggle doesn't shift elements below */
 }
 
 /* Swipe legend on intro */
@@ -1000,6 +1000,13 @@ html, body {
   font-size: clamp(1.8rem, 7vw, 2.6rem);
   line-height: 1.1;
   color: var(--color-text);
+}
+
+.end-subtitle {
+  font-size: 1rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-top: -12px; /* pull closer to title, overriding the gap */
 }
 
 .end-sub {

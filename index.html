@@ -55,8 +55,8 @@
       </div>
 
       <h1 class="intro-title" data-nl="Herken je het?" data-en="Can you spot it?">Herken je het?</h1>
-      <p class="intro-sub" data-nl="Swipe om te bepalen of een situatie grensoverschrijdend gedrag is." data-en="Swipe to decide if a situation is harassment.">
-        Swipe om te bepalen of een situatie grensoverschrijdend gedrag is.
+      <p class="intro-sub" data-nl="Echte situaties, echte keuzes. Herken jij grensoverschrijdend gedrag? Swipe en ontdek het!" data-en="Real situations, real choices. Think you can spot harassment? Swipe to find out!">
+        Echte situaties, echte keuzes. Herken jij grensoverschrijdend gedrag? Swipe en ontdek het!
       </p>
 
       <div class="swipe-legend">
@@ -85,7 +85,7 @@
         <button class="lang-btn" data-lang="en">EN</button>
       </div>
 
-      <button class="btn-primary" id="btn-start" data-nl="Begin" data-en="Start">Begin</button>
+      <button class="btn-primary" id="btn-start" data-nl="Aan de slag!" data-en="Let's go!">Aan de slag!</button>
     </div>
   </div>
 
@@ -111,9 +111,9 @@
         </div>
 
         <div class="survey-question-copy">
-          <div class="wt-step-title" data-nl="Eén vraagje voor je begint" data-en="One question before you start">Eén vraagje voor je begint</div>
-          <div class="wt-step-desc" data-nl="Hoe zeker voel jij je nu al in het herkennen van grensoverschrijdend gedrag?" data-en="How confident do you currently feel in recognising harassment?">
-            Hoe zeker voel jij je nu al in het herkennen van grensoverschrijdend gedrag?
+          <div class="wt-step-title" data-nl="Snelle vraag voor je begint..." data-en="Quick question before you start...">Snelle vraag voor je begint...</div>
+          <div class="wt-step-desc" data-nl="Hoe goed herken jij grensoverschrijdend gedrag?" data-en="How confident are you at spotting harassment?">
+            Hoe goed herken jij grensoverschrijdend gedrag?
           </div>
         </div>
 
@@ -136,9 +136,9 @@
           <div class="survey-consent survey-consent-inline">
             <label class="consent-label">
               <input type="checkbox" id="survey-consent" name="consent" required />
-              <span data-nl="Ik ga akkoord dat mijn anonieme antwoorden worden opgeslagen voor onderzoeksdoeleinden."
-                    data-en="I agree that my anonymous answers will be stored for research purposes.">
-                Ik ga akkoord dat mijn anonieme antwoorden worden opgeslagen voor onderzoeksdoeleinden.
+              <span data-nl="Ik vind het goed dat mijn anonieme antwoorden worden gebruikt voor onderzoek."
+                    data-en="I'm okay with my anonymous answers being used for research purposes.">
+                Ik vind het goed dat mijn anonieme antwoorden worden gebruikt voor onderzoek.
               </span>
             </label>
           </div>
@@ -286,15 +286,18 @@
       <div class="end-icon">
         <svg aria-hidden="true"><use href="#icon-star"/></svg>
       </div>
-      <h2 class="end-title" data-nl="Je hebt alle scenario's gezien!" data-en="You've seen all scenarios!">
-        Je hebt alle scenario's gezien!
+      <h2 class="end-title" data-nl="Je hebt de eerste stap gezet!" data-en="You took the first step!">
+        Je hebt de eerste stap gezet!
       </h2>
+      <p class="end-subtitle" data-nl="Je hebt gezien hoe grensoverschrijdend gedrag eruitziet. Leer nu wat jij kunt doen!" data-en="You've seen what harassment looks like. Now learn what you can do!">
+        Je hebt gezien hoe grensoverschrijdend gedrag eruitziet. Leer nu wat jij kunt doen!
+      </p>
 
       <!-- Post-game form: confidence re-evaluation + demographics -->
       <form class="end-form" id="end-form" novalidate>
 
         <div class="survey-field">
-          <label class="survey-label" data-nl="Hoe zeker voel jij je NU in het herkennen van grensoverschrijdend gedrag?" data-en="How confident do you feel NOW in recognising harassment?">Hoe zeker voel jij je NU in het herkennen van grensoverschrijdend gedrag?</label>
+          <label class="survey-label" data-nl="Hoe klaar voel jij je NU om grensoverschrijdend gedrag te herkennen?" data-en="How ready do you feel to spot harassment now?">Hoe klaar voel jij je NU om grensoverschrijdend gedrag te herkennen?</label>
           <div class="confidence-scale">
             <div class="confidence-options">
               <label class="confidence-option"><input type="radio" name="confidence-post" value="1" /><span>1</span></label>
@@ -310,7 +313,7 @@
           </div>
         </div>
 
-        <p class="end-demographics-note" data-nl="Help ons meer te leren over onze bezoekers (optioneel):" data-en="Help us learn about our visitors (optional):">Help ons meer te leren over onze bezoekers (optioneel):</p>
+        <p class="end-demographics-note" data-nl="Help ons jou beter te leren kennen (optioneel):" data-en="Help us get to know you (optional):">Help ons jou beter te leren kennen (optioneel):</p>
 
         <div class="survey-field">
           <label class="survey-label" for="end-age" data-nl="Leeftijd" data-en="Age">Leeftijd</label>
@@ -346,7 +349,7 @@
         </div>
 
         <button type="submit" class="btn-primary survey-submit" id="btn-end-data-submit"
-          data-nl="Verstuur resultaten" data-en="Submit results">Verstuur resultaten</button>
+          data-nl="Deel mijn antwoorden!" data-en="Share my answers!">Deel mijn antwoorden!</button>
 
         <button type="button" class="survey-skip" id="btn-end-data-skip" data-nl="Overslaan" data-en="Skip">Overslaan</button>
 
@@ -354,7 +357,7 @@
 
       <div id="end-form-thanks" class="end-form-thanks" style="display:none">
         <svg aria-hidden="true" style="width:28px;height:28px;color:var(--color-yes)"><use href="#icon-check"/></svg>
-        <p data-nl="Bedankt! Je antwoorden zijn opgeslagen." data-en="Thanks! Your answers have been saved.">Bedankt! Je antwoorden zijn opgeslagen.</p>
+        <p data-nl="Bedankt :)" data-en="Thanks :)">Bedankt :)</p>
       </div>
 
       <div class="end-ctas">
@@ -364,9 +367,9 @@
           rel="noopener"
           class="btn-primary btn-training"
           id="btn-end-training"
-          data-nl="Doe mee met 5D training"
-          data-en="Join the 5D training"
-        >Doe mee met 5D training</a>
+          data-nl="Oefen met echte situaties!"
+          data-en="Practice with real situations!"
+        >Oefen met echte situaties!</a>
         <button class="btn-secondary" id="btn-restart" data-nl="Opnieuw spelen" data-en="Play again">
           Opnieuw spelen
         </button>

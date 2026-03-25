@@ -52,7 +52,7 @@ const LABELS = {
     incorrect_down_right:  'Let op!',
     okay_type: 'Dit is oké ✓',
     next_card: 'Volgende kaart →',
-    training:  'Doe mee met 5D training ↗',
+    training:  'Verbeter je vaardigheden ↗',
     intervene: 'Hoe kan ik ingrijpen?',
     unsure_stamp: 'Weet niet',
     yes_stamp:    'Oké!',
@@ -72,7 +72,7 @@ const LABELS = {
     incorrect_down_right:  'Watch out!',
     okay_type: 'This is okay ✓',
     next_card: 'Next card →',
-    training:  'Join the 5D training ↗',
+    training:  'Level up your intervention skills ↗',
     intervene: 'How can I intervene?',
     unsure_stamp: 'Unsure',
     yes_stamp:    'Okay!',
@@ -1036,8 +1036,8 @@ function submitEndData() {
   thanks.style.display = 'flex';
   thanks.querySelector('[data-nl]').textContent =
     currentLang === 'nl'
-      ? 'Bedankt! Je antwoorden zijn opgeslagen.'
-      : 'Thanks! Your answers have been saved.';
+      ? 'Bedankt :)'
+      : 'Thanks :)';
 }
 
 function onEndFormSubmit(e) {
