@@ -3,24 +3,42 @@
    ============================================================ */
 @font-face {
   font-family: 'Thunder';
-  src: url('../fonts/Thunder-BoldLC.woff2') format('woff2'),
-       url('../fonts/Thunder-BoldLC.ttf') format('truetype');
+  src: url('../fonts/Thunder-LC.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thunder';
+  src: url('../fonts/Thunder-SemiBoldLC.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Thunder';
+  src: url('../fonts/Thunder-BoldLC.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Thunder';
-  src: url('../fonts/Thunder-ExtraBoldLC.woff2') format('woff2'),
-       url('../fonts/Thunder-ExtraBoldLC.ttf') format('truetype');
+  src: url('../fonts/Thunder-ExtraBoldLC.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: 'Mango Grotesque';
-  src: url('../fonts/MangoGrotesque-Bold.woff2') format('woff2'),
-       url('../fonts/MangoGrotesque-Bold.ttf') format('truetype');
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -33,22 +51,23 @@
   --color-bg: #F4F4F4;
   --color-card: #FFFFFF;
   --color-card-shadow: 0 8px 32px rgba(0, 0, 0, 0.10);
-  --color-accent: #7bdcb5;
-  --color-accent-dark: #5cc49e;
-  --color-yes: #3dba7a;
-  --color-yes-bg: #e8f8ef;
+  --color-accent: #69BFA8;
+  --color-accent-dark: #4d9e8a;
+  --color-dark-blue: #163378;
+  --color-yes: #69BFA8;
+  --color-yes-bg: #e4f4ef;
   --color-no: #c11103;
   --color-no-bg: #fdecea;
-  --color-unsure: #f5b93e;
-  --color-unsure-bg: #fff8e6;
-  --color-feedback-correct: #7bdcb5;
+  --color-unsure: #ffd849;
+  --color-unsure-bg: #fffbe0;
+  --color-feedback-correct: #69BFA8;
   --color-feedback-incorrect: #faadf2;
-  --color-text: #1a1a1a;
+  --color-text: #343434;
   --color-text-muted: #6b7280;
   --color-border: #e5e7eb;
 
   --font-heading: 'Thunder', 'Inter', system-ui, sans-serif;
-  --font-body: 'Mango Grotesque', 'Inter', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
 
   --radius-card: 24px;
   --radius-btn: 9999px;
@@ -495,7 +514,7 @@ html, body {
   background: var(--color-feedback-incorrect);
 }
 .feedback-banner.unsure {
-  background: #f5b93e;
+  background: var(--color-unsure);
 }
 .feedback-banner span {
   font-family: var(--font-heading);
